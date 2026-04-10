@@ -1,6 +1,26 @@
 # des_library
 
-Reusable Discrete Event Simulation (DES) library designed for teaching and project work.
+Discrete Event Simulation (DES) library designed for teaching and project work.
+
+## Course Description
+
+This course aims to give an introduction to the basics of stochastic (discrete event) simulation. In practice, most systems give rise to mathematical models that are too complicated for an exact mathematical analysis. Making some simplifying assumptions may make our model (numerically) tractable but also give less applicable results. In these situations we can decide to do a simulation study of the original system. In a simulation study of a system we distinguish two parts: the simulation of the system and the collection and analysis of data from this simulation.
+
+A side goal is to improve programming skills in Python via the assignments.
+
+## Goal
+
+After successful completion of this part, the student is able to:
+
+- analyse a practical problem in which uncertainty plays a role, and design a conceptual discrete-event simulation model for it;
+- implement a discrete-event simulation model by writing correct computer code;
+- interpret the outcomes of the computer simulation program using statistical analysis.
+
+Go to the detailed overview in the OSIRIS Course Catalog.
+
+## Assignments
+
+Three assignments will be published on Canvas, and the related instructions will also be published there.
 
 The library is modular, object-oriented, and fully encapsulated (no global simulation state), so it can be reused across domains such as healthcare, finance, logistics, energy, and operations.
 
